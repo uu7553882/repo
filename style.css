@@ -22,12 +22,12 @@ a {
   /* Secțiunea Hero */
 
 .hero2 {
-      height: 70vh; 
-      width: 100%;
-      background-image: url('./assets/1594500375595.png');
-      display: block; 
-      overflow-x: hidden;
-      }
+  height: 70vh; 
+  width: 100%;
+  background-image: url('./assets/back\(1\).jpg');
+  display: block; 
+  overflow-x: hidden;
+  }
 
 .hero1 {
   height: 10%;
@@ -246,7 +246,7 @@ footer a:hover {
     .hero2 {
       height: 70vh; 
       width: 100%;
-      background-image: url('./assets/medscreen.png');
+      background-image: url('./assets/back\(1\).jpg');
       display: block; 
       }
 
@@ -261,6 +261,107 @@ footer a:hover {
     .cards {
       flex-direction: column;
       align-items: center;
+    }
+  }
+  @media(max-width: 1024px){
+    .hero2 {
+      height: 70vh; 
+      width: 100%;
+      background-image: url('./assets/smallic.png');
+      display: block; 
+      }
+    }
+
+  @media(max-width: 912px){
+    .hero2 {
+      height: 70vh; 
+      width: 100%;
+      background-image: url('./assets/smallic.png');
+      display: block; 
+      }
+    }
+
+  @media(max-width: 853px){
+    .hero2 {
+      height: 70vh; 
+      width: 100%;
+      background-image: url('./assets/smallic.png');
+      display: block; 
+      }
+    }
+
+    @media(max-width: 375px){
+    body{
+      padding: 0;
+      margin: 0;
+    }
+    header {
+      flex-direction: column;
+    }
+
+    .hero{
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      color: #fff;
+      text-align: center;
+      padding: 0 20px;
+      padding-top: 40px;
+      overflow-x: hidden;
+    }
+
+    .hero2 {
+      height: 70vh; 
+      width: 100%;
+      background-image: url('./assets/smallic.png');
+      display: block; 
+      background-repeat: no-repeat;
+      background-size: cover;
+      }
+
+    .about {
+      flex-direction: column;
+    }
+
+    .services {
+      padding: 30px 10px;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap; 
+      justify-content: center; 
+      gap: 16px; 
+      padding: 10px; 
+    }
+
+    .card {
+      background: #fff;
+      padding: 2px;
+      max-width: 300px; 
+      width: 100%; 
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+      box-sizing: border-box; 
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: auto; 
+      border-radius: 8px;
+    }
+
+    .card .btn {
+      display: block;
+      margin: 0 auto;
+      margin-top: 10px; 
+    }
     }
 
     @media(max-width: 344px){
@@ -334,4 +435,12 @@ footer a:hover {
       margin-top: 10px; 
     }
     }
+    
+    @media(max-width: 414px){
+    .hero2 {
+      height: 70vh; 
+      width: 100%;
+      background-image: url('./assets/smallic.png');
+      display: block; 
+      }
   }
