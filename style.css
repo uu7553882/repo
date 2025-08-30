@@ -57,6 +57,10 @@ a {
   transition: background-color 0.3s;
   }
 
+.btn2{
+  border-radius: 10px;
+}
+
 .container {
   display: flex;
   justify-content: center; 
@@ -444,3 +448,4 @@ footer a:hover {
       display: block; 
       }
   }
+
