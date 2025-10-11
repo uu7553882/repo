@@ -22,11 +22,15 @@ a {
   /* Secțiunea Hero */
 
 .hero2 {
-  height: 70vh; 
+  height: 50vh; 
   width: 100%;
   background-image: url('./assets/back\(1\).jpg');
   display: block; 
   overflow-x: hidden;
+  }
+
+  .keyword{
+    color: #8473ff;
   }
 
 .hero1 {
@@ -259,7 +263,7 @@ footer li:hover {
   }
   @media(max-width: 1024px){
     .hero2 {
-      height: 70vh; 
+      height: 50vh; 
       width: 100%;
       background-image: url('./assets/smallic.png');
       display: block; 
@@ -268,7 +272,7 @@ footer li:hover {
 
   @media(max-width: 912px){
     .hero2 {
-      height: 70vh; 
+      height: 50vh; 
       width: 100%;
       background-image: url('./assets/smallic.png');
       display: block; 
@@ -277,7 +281,7 @@ footer li:hover {
 
   @media(max-width: 853px){
     .hero2 {
-      height: 70vh; 
+      height: 50vh; 
       width: 100%;
       background-image: url('./assets/smallic.png');
       display: block; 
@@ -307,7 +311,7 @@ footer li:hover {
     }
 
     .hero2 {
-      height: 70vh; 
+      height: 50vh; 
       width: 100%;
       background-image: url('./assets/smallic.png');
       display: block; 
@@ -381,7 +385,7 @@ footer li:hover {
     }
 
     .hero2 {
-      height: 70vh; 
+      height: 50vh; 
       width: 100%;
       background-image: url('./assets/smallic.png');
       display: block; 
@@ -432,7 +436,7 @@ footer li:hover {
     
     @media(max-width: 414px){
     .hero2 {
-      height: 70vh; 
+      height: 50vh; 
       width: 100%;
       background-image: url('./assets/smallic.png');
       display: block; 
